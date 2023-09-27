@@ -24,7 +24,7 @@ document.getElementById("button").addEventListener("click", function() {
 
 const carouselSlides = document.querySelectorAll(".image");
 let currentIndex = 0;
-let interval = 3000;
+let interval = 4000;
 
 function nextSlide() {
     carouselSlides[currentIndex].classList.remove("active");
